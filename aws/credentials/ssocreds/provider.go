@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/auth/bearer"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/service/sso"
-	"github.com/aws/aws-sdk-go/service/sso/ssoiface"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/auth/bearer"
+	"github.com/OS-M/aws-sdk-go/aws/awserr"
+	"github.com/OS-M/aws-sdk-go/aws/client"
+	"github.com/OS-M/aws-sdk-go/aws/credentials"
+	"github.com/OS-M/aws-sdk-go/service/sso"
+	"github.com/OS-M/aws-sdk-go/service/sso/ssoiface"
 )
 
 // ErrCodeSSOProviderInvalidToken is the code type that is returned if loaded token has expired or is otherwise invalid.

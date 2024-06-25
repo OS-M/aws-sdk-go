@@ -2,14 +2,14 @@ package ec2metadata
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws"
 	"net/http"
 	"sync/atomic"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/aws/awserr"
+	"github.com/OS-M/aws-sdk-go/aws/credentials"
+	"github.com/OS-M/aws-sdk-go/aws/request"
 )
 
 // A tokenProvider struct provides access to EC2Metadata client

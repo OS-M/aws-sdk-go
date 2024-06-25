@@ -6,15 +6,15 @@ package main
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/awserr"
+	"github.com/OS-M/aws-sdk-go/aws/client"
+	"github.com/OS-M/aws-sdk-go/aws/credentials"
+	"github.com/OS-M/aws-sdk-go/aws/defaults"
+	"github.com/OS-M/aws-sdk-go/aws/endpoints"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/aws/session"
+	"github.com/OS-M/aws-sdk-go/service/cloudwatchlogs"
 )
 
 func main() {

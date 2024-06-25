@@ -3,12 +3,12 @@
 package redshift
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol/query"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/client"
+	"github.com/OS-M/aws-sdk-go/aws/client/metadata"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/aws/signer/v4"
+	"github.com/OS-M/aws-sdk-go/private/protocol/query"
 )
 
 // Redshift provides the API operation methods for making requests to

@@ -1,6 +1,6 @@
 package sqs
 
-import "github.com/aws/aws-sdk-go/aws/request"
+import "github.com/OS-M/aws-sdk-go/aws/request"
 
 func init() {
 	initRequest = func(r *request.Request) {

@@ -17,11 +17,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/session"
+	"github.com/OS-M/aws-sdk-go/awstesting/unit"
+	"github.com/OS-M/aws-sdk-go/private/protocol"
+	"github.com/OS-M/aws-sdk-go/private/protocol/eventstream"
 )
 
 const (

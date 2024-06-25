@@ -9,9 +9,9 @@
 package bedrockruntimeiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/bedrockruntime"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/bedrockruntime"
 )
 
 // BedrockRuntimeAPI provides an interface to enable mocking the

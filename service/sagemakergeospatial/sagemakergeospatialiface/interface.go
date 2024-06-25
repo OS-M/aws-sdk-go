@@ -9,9 +9,9 @@
 package sagemakergeospatialiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/sagemakergeospatial"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/sagemakergeospatial"
 )
 
 // SageMakerGeospatialAPI provides an interface to enable mocking the

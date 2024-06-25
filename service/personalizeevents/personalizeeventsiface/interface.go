@@ -9,9 +9,9 @@
 package personalizeeventsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/personalizeevents"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/personalizeevents"
 )
 
 // PersonalizeEventsAPI provides an interface to enable mocking the

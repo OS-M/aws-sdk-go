@@ -9,9 +9,9 @@
 package route53recoveryclusteriface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/route53recoverycluster"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/route53recoverycluster"
 )
 
 // Route53RecoveryClusterAPI provides an interface to enable mocking the

@@ -9,9 +9,9 @@
 package paymentcryptographyiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/paymentcryptography"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/paymentcryptography"
 )
 
 // PaymentCryptographyAPI provides an interface to enable mocking the

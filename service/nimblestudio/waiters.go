@@ -5,8 +5,8 @@ package nimblestudio
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
 )
 
 // WaitUntilLaunchProfileDeleted uses the AmazonNimbleStudio API operation

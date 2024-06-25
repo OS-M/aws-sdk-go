@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws"
 )
 
 // Endpoint represents an endpoint used in endpoint discovery.

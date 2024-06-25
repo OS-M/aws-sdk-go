@@ -9,9 +9,9 @@
 package cloudcontrolapiiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/cloudcontrolapi"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/cloudcontrolapi"
 )
 
 // CloudControlApiAPI provides an interface to enable mocking the

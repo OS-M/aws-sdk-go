@@ -14,9 +14,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/session"
+	"github.com/OS-M/aws-sdk-go/service/s3"
 )
 
 // Example of creating an HTTP Client configured with a client TLS

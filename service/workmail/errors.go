@@ -3,7 +3,7 @@
 package workmail
 
 import (
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/OS-M/aws-sdk-go/private/protocol"
 )
 
 const (

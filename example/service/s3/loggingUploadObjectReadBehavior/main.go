@@ -10,9 +10,9 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3/s3manager"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/aws/session"
+	"github.com/OS-M/aws-sdk-go/service/s3/s3manager"
 )
 
 // Usage:

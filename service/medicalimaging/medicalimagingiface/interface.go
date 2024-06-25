@@ -9,9 +9,9 @@
 package medicalimagingiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/medicalimaging"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/medicalimaging"
 )
 
 // MedicalImagingAPI provides an interface to enable mocking the

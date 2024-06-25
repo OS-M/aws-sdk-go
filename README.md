@@ -1,6 +1,6 @@
 # AWS SDK for Go
 
-[![API Reference](https://img.shields.io/badge/api-reference-blue.svg)](https://docs.aws.amazon.com/sdk-for-go/api) [![Join the chat at https://gitter.im/aws/aws-sdk-go](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aws/aws-sdk-go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build status](https://github.com/aws/aws-sdk-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aws/aws-sdk-go/actions/workflows/go.yml) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/aws/aws-sdk-go/blob/main/LICENSE.txt)
+[![API Reference](https://img.shields.io/badge/api-reference-blue.svg)](https://docs.aws.amazon.com/sdk-for-go/api) [![Join the chat at https://gitter.im/aws/aws-sdk-go](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aws/aws-sdk-go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build status](https://github.com/OS-M/aws-sdk-go/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/OS-M/aws-sdk-go/actions/workflows/go.yml) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/OS-M/aws-sdk-go/blob/main/LICENSE.txt)
 
 aws-sdk-go is the v1 AWS SDK for the Go programming language.
 
@@ -18,11 +18,11 @@ Jump To:
 ### Installing
 Use `go get` to retrieve the SDK to add it to your project's Go module dependencies.
 
-	go get github.com/aws/aws-sdk-go
+	go get github.com/OS-M/aws-sdk-go
 
 To update the SDK use `go get -u` to retrieve the latest version of the SDK.
 
-	go get -u github.com/aws/aws-sdk-go
+	go get -u github.com/OS-M/aws-sdk-go
 
 ## Quick Examples 
 
@@ -44,11 +44,11 @@ response.
   	"os"
   	"time"
 
-  	"github.com/aws/aws-sdk-go/aws"
-  	"github.com/aws/aws-sdk-go/aws/awserr"
-  	"github.com/aws/aws-sdk-go/aws/request"
-  	"github.com/aws/aws-sdk-go/aws/session"
-  	"github.com/aws/aws-sdk-go/service/s3"
+  	"github.com/OS-M/aws-sdk-go/aws"
+  	"github.com/OS-M/aws-sdk-go/aws/awserr"
+  	"github.com/OS-M/aws-sdk-go/aws/request"
+  	"github.com/OS-M/aws-sdk-go/aws/session"
+  	"github.com/OS-M/aws-sdk-go/service/s3"
   )
 
   // Uploads a file to S3 given a bucket and object key. Also takes a duration
@@ -427,21 +427,21 @@ for tracking bugs and feature requests.
 * Ask a question on [StackOverflow](http://stackoverflow.com/) and tag it with the [`aws-sdk-go`](http://stackoverflow.com/questions/tagged/aws-sdk-go) tag.
 * Come join the AWS SDK for Go community chat on [gitter](https://gitter.im/aws/aws-sdk-go).
 * Open a support ticket with [AWS Support](http://docs.aws.amazon.com/awssupport/latest/user/getting-started.html).
-* If you think you may have found a bug, please open an [issue](https://github.com/aws/aws-sdk-go/issues/new/choose).
+* If you think you may have found a bug, please open an [issue](https://github.com/OS-M/aws-sdk-go/issues/new/choose).
 
 This SDK implements AWS service APIs. For general issues regarding the AWS services and their limitations, you may also take a look at the [Amazon Web Services Discussion Forums](https://forums.aws.amazon.com/).
 
 ### Opening Issues
 
 If you encounter a bug with the AWS SDK for Go we would like to hear about it.
-Search the [existing issues](https://github.com/aws/aws-sdk-go/issues) and see
+Search the [existing issues](https://github.com/OS-M/aws-sdk-go/issues) and see
 if others are also experiencing the issue before opening a new issue. Please
 include the version of AWS SDK for Go, Go language, and OS you’re using. Please
 also include reproduction case when appropriate.
 
 The GitHub issues are intended for bug reports and feature requests. For help
 and questions with using AWS SDK for Go please make use of the resources listed
-in the [Getting Help](https://github.com/aws/aws-sdk-go#getting-help) section.
+in the [Getting Help](https://github.com/OS-M/aws-sdk-go#getting-help) section.
 Keeping the list of open issues lean will help us respond in a timely manner.
 
 ## Contributing
@@ -485,7 +485,7 @@ great for getting started with a service, or when looking for more
 information about a service. While this document is not required for coding, 
 services may supply helpful samples to look out for.
 
-[SDK Examples](https://github.com/aws/aws-sdk-go/tree/main/example) -
+[SDK Examples](https://github.com/OS-M/aws-sdk-go/tree/main/example) -
 Included in the SDK's repo are several hand crafted examples using the SDK
 features and AWS services.
 
@@ -495,6 +495,6 @@ features and AWS services.
   (see [Apache 2.0 License][license])
 
 
-[issues]: https://github.com/aws/aws-sdk-go/issues
-[pr]: https://github.com/aws/aws-sdk-go/pulls
+[issues]: https://github.com/OS-M/aws-sdk-go/issues
+[pr]: https://github.com/OS-M/aws-sdk-go/pulls
 [license]: http://aws.amazon.com/apache2.0/

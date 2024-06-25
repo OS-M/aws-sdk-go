@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/private/protocol/json/jsonutil"
+	"github.com/OS-M/aws-sdk-go/private/protocol/json/jsonutil"
 )
 
 func S(s string) *string {

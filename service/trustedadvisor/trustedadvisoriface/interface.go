@@ -9,9 +9,9 @@
 package trustedadvisoriface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/trustedadvisor"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/trustedadvisor"
 )
 
 // TrustedAdvisorAPI provides an interface to enable mocking the

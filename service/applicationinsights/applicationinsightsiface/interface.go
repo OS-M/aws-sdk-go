@@ -9,9 +9,9 @@
 package applicationinsightsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/applicationinsights"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/applicationinsights"
 )
 
 // ApplicationInsightsAPI provides an interface to enable mocking the

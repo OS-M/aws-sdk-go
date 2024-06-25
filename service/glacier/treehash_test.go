@@ -8,7 +8,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/glacier"
+	"github.com/OS-M/aws-sdk-go/service/glacier"
 )
 
 func ExampleComputeHashes() {

@@ -5,17 +5,17 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/credentials/processcreds"
-	"github.com/aws/aws-sdk-go/aws/credentials/ssocreds"
-	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
-	"github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/shareddefaults"
-	"github.com/aws/aws-sdk-go/service/ssooidc"
-	"github.com/aws/aws-sdk-go/service/sts"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/awserr"
+	"github.com/OS-M/aws-sdk-go/aws/credentials"
+	"github.com/OS-M/aws-sdk-go/aws/credentials/processcreds"
+	"github.com/OS-M/aws-sdk-go/aws/credentials/ssocreds"
+	"github.com/OS-M/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/OS-M/aws-sdk-go/aws/defaults"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/internal/shareddefaults"
+	"github.com/OS-M/aws-sdk-go/service/ssooidc"
+	"github.com/OS-M/aws-sdk-go/service/sts"
 )
 
 // CredentialsProviderOptions specifies additional options for configuring

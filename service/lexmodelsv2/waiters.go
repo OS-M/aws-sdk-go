@@ -5,8 +5,8 @@ package lexmodelsv2
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
 )
 
 // WaitUntilBotAliasAvailable uses the Lex Models V2 API operation

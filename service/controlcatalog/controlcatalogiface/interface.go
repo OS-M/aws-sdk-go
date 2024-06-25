@@ -9,9 +9,9 @@
 package controlcatalogiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/controlcatalog"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/controlcatalog"
 )
 
 // ControlCatalogAPI provides an interface to enable mocking the

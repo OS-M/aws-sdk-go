@@ -9,9 +9,9 @@
 package iotfleetwiseiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/iotfleetwise"
+	"github.com/OS-M/aws-sdk-go/aws"
+	"github.com/OS-M/aws-sdk-go/aws/request"
+	"github.com/OS-M/aws-sdk-go/service/iotfleetwise"
 )
 
 // IoTFleetWiseAPI provides an interface to enable mocking the

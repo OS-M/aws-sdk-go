@@ -6,9 +6,9 @@ package cloudwatch_test
 import (
 	"context"
 
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/cloudwatch"
+	"github.com/OS-M/aws-sdk-go/aws/session"
+	"github.com/OS-M/aws-sdk-go/awstesting/unit"
+	"github.com/OS-M/aws-sdk-go/service/cloudwatch"
 )
 
 func ExampleCloudWatch_PutMetricDataWithContext_withGzipRequest() {
