@@ -83,6 +83,8 @@ type Value struct {
 
 	// Provider used to get credentials
 	ProviderName string
+
+	Endpoint string
 }
 
 // HasKeys returns if the credentials Value has both AccessKeyID and
