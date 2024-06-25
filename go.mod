@@ -1,4 +1,4 @@
-module github.com/aws/aws-sdk-go
+module github.com/OS-M/aws-sdk-go
 
 go 1.19
 
