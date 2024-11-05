@@ -110,6 +110,7 @@ func loadProfile(filename, profile string) (Value, error) {
 		SessionToken:    token,
 		ProviderName:    SharedCredsProviderName,
 		Endpoint:        iniProfile.String("endpoint_url"),
+		Region:          iniProfile.String("region"),
 	}, nil
 }
 
